@@ -14,7 +14,9 @@ const Hero = () => {
         <div className="col-md-6 col-12">
           <h1 className="title">Web Suite For Nigerian Businesses & Brands</h1>
           <p className="py-4">Our web agency propels businesses and brands to online success with a suite of services including website design and creation, SEO, PPC, Google Ads, and email marketing.</p>
-          <button className="btn-positivus">Book a consultation</button>
+          <a href="https://d2zhcj7kad1.typeform.com/to/YHMKeYYM" className="btn-positivus" target="_blank" rel="noopener noreferrer">
+            Book a consultation
+          </a>
         </div>
         <div className="col-md-6 col-12 mt-md-0 mt-4">
           <img className="img-fluid" src={images.hero} alt="design" />
