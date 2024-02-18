@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Testimonials, CaseStudies, Contact, Footer, Hero, Process, Services, Team , CTA} from './container';
 import { Menu } from './components';
-
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 
 

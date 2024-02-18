@@ -82,6 +82,7 @@ input[type="text"] {
     border-radius: 14px;
     border: none;
     color: #fff;
+    text-decoration:none;
 
 }
 

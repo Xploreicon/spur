@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="col-md-4 col-12">
           <ul className="info-contact">
             <li><span>Contact us:</span></li>
-            <li>Email: info@spur.com</li>
+            <li>Email: info@spur.ng</li>
             <li>Phone: +2348103587435</li>
           </ul>
         </div>
