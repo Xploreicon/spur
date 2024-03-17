@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { images, data } from '../../constants';
-import { BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import { BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -18,9 +18,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-md-2 col-12 text-center text-md-end fs-4">
-          <BsFacebook />
-          <BsTwitter />
-          <BsLinkedin />
+          <a href="https://www.instagram.com/spur_ng?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}><BsInstagram /></a>
+          <a href="https://x.com/spur_ng?s=20" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}><BsTwitter /></a>
+          <a href="#" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}><BsLinkedin /></a>
+          
         </div>
       </div>
       <div className="row">
