@@ -4,7 +4,7 @@ import {IconScroll} from '../../components';
 import './Hero.css';
 
 
-// const logos = ["logo01", "logo02", "logo03", "logo04", "logo05", "logo06"];
+const logos = ["logo01", "logo02", "logo03", "logo04", "logo05", "logo06"];
 
 const Hero = () => {
 
@@ -25,13 +25,13 @@ const Hero = () => {
       
       <div className="clients">
 
-      {/* {logos.map((logo, index) => (
+      {logos.map((logo, index) => (
       <img
         key={index}
         src={images[logo]}
         alt={images[logo]}
       />
-    ))} */}
+    ))}
   
       </div>
       <IconScroll />

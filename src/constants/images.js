@@ -1,12 +1,12 @@
 import thingshappen from '../assets/thingshappen.png';
 import contact from '../assets/contact.png';
 import logo from '../assets/spur logo@5x.png';
-// import logo01 from '../assets/logo01.png';
-// import logo02 from '../assets/logo02.png';
-// import logo03 from '../assets/logo03.png';
-// import logo04 from '../assets/logo04.png';
-// import logo05 from '../assets/logo05.png';
-// import logo06 from '../assets/logo06.png';
+import logo01 from '../assets/logo01.png';
+import logo02 from '../assets/logo02.png';
+import logo03 from '../assets/logo03.png';
+import logo04 from '../assets/logo04.png';
+import logo05 from '../assets/logo05.png';
+import logo06 from '../assets/logo06.png';
 import logofooter from '../assets/Spur logo white.png';
 import services01 from '../assets/services01.png';
 import services02 from '../assets/services02.png';
@@ -26,12 +26,12 @@ const images = {
   thingshappen,
   contact,
   logo,
-  // logo01,
-  // logo02,
-  // logo03,
-  // logo04,
-  // logo05,
-  // logo06,
+  logo01,
+  logo02,
+  logo03,
+  logo04,
+  logo05,
+  logo06,
   logofooter,
   services01,
   services02,
