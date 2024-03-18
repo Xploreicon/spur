@@ -162,4 +162,49 @@ const Testimonials = [
         testimonial: '"We have been working with Spur for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Spur to any company looking to grow their online presence."',
     },
 ];
-export default { Menu, CaseStudies, WorkingProcess, Team, Testimonials, ServicesData };
+
+const ProcessData = [
+    {
+        titleone: 'RiverFoundEnergy',
+        titletwo: 'Oil & Gas',
+        link: 'https://www.riverfoundenergy.com/',
+        itemclass: 'blight',
+        imgURL: images.process1,
+    },
+    {
+        titleone: 'GreenCamp',
+        titletwo: '(coming soon)',
+        link: '#',
+        itemclass: 'blight',
+        imgURL: images.process2,
+    },
+    // {
+    //     titleone: 'Pay-per-click',
+    //     titletwo: 'advertising',
+    //     link: '#',
+    //     itemclass: 'bgreen',
+    //     imgURL: images.services02,
+    // },
+    // {
+    //     titleone: 'Email',
+    //     titletwo: 'Marketing',
+    //     link: '#',
+    //     itemclass: 'bgreen',
+    //     imgURL: images.services04,
+    // },
+    // {
+    //     titleone: 'Ecommerce',
+    //     titletwo: 'Solution',
+    //     link: '#',
+    //     itemclass: 'bdark',
+    //     imgURL: images.services05,
+    // },
+    // {
+    //     titleone: 'Analytics and',
+    //     titletwo: 'Tracking',
+    //     link: '#',
+    //     itemclass: 'bdark',
+    //     imgURL: images.services06,
+    // },
+]
+export default { Menu, CaseStudies, WorkingProcess, Team, Testimonials, ServicesData, ProcessData, };

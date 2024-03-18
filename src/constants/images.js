@@ -21,6 +21,8 @@ import team05 from '../assets/team05.png';
 import team06 from '../assets/team06.png';
 import team01 from '../assets/team01.png';
 import hero from '../assets/hero.png';
+import process1 from '../assets/RiverfoundEnergy.png';
+import process2 from '../assets/green.jpg';
 
 const images = {
   thingshappen,
@@ -46,6 +48,8 @@ const images = {
   team06,
   team01,
   hero,
+  process1,
+  process2,
 };
 
 export default images;

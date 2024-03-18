@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Testimonials, CaseStudies, Contact, Footer, Hero, Process, Services, Team , CTA} from './container';
+import { Testimonials, CaseStudies, Contact, Footer, Hero, Process, Services, Team , CTA, Proof} from './container';
 import { Menu } from './components';
 import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
@@ -20,6 +20,7 @@ const App = () => (
     <Process />
     <Team />
     <Testimonials />
+    <Proof />
     <Contact />
     <Footer />
   </div>

@@ -7,6 +7,7 @@ import Process from './Process/Process';
 import Services from './Services/Services';
 import Team from './Team/Team';
 import CTA from './CTA/CTA';
+import Proof from './Proof/Proof'
 
 export {
     Testimonials,
@@ -18,4 +19,5 @@ export {
     Process,
     Services,
     Team,
+    Proof,
 }
