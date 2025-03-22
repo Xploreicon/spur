@@ -7,12 +7,13 @@ import Process from './Process/Process';
 import Services from './Services/Services';
 import Team from './Team/Team';
 import CTA from './CTA/CTA';
-import Proof from './Proof/Proof'
-
+import Proof from './Proof/Proof';
+import CTA2 from './CTA2';
 export {
     Testimonials,
     CaseStudies,
     CTA,
+    CTA2,
     Contact,
     Footer,
     Hero,

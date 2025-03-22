@@ -9,7 +9,7 @@ import './Services.css';
 const Services = () => {
   return (
     <div id="services" className="d-block pt-md-4">
-      <Headings title="Services" text="At our Web agency, we offer a range of services to help businesses grow and succeed online. These services include" />
+      <Headings title="Services" text="" />
 
       <div className="row">
         {data.ServicesData.map(({ titleone, titletwo , link, itemclass, imgURL }, index) => (
@@ -17,9 +17,9 @@ const Services = () => {
           <div className={`row ${itemclass}`}>
               <div className="col-md-6 box">
              <div>  <span>{titleone} </span> 
-               <span>{titletwo}</span> 
+               
                </div>
-                <a href={link} alt={titleone} className="readmore"> <BsFillArrowUpRightCircleFill /> Learn more </a>
+                <a href={link} alt={titleone} className="readmore"> <BsFillArrowUpRightCircleFill /> {titletwo}  </a>
               </div>
               <div className="col-md-6 text-end"><img src={imgURL} alt={titleone} className="img-fluid img-services" /></div>
             </div>

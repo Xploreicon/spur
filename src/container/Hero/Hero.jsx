@@ -12,10 +12,10 @@ const Hero = () => {
     <div className="hero">
       <div className="row align-items-center">
         <div className="col-md-6 col-12">
-          <h1 className="title">Web Suite For Nigerian Businesses & Brands</h1>
-          <p className="py-4">Our web agency propels businesses and brands to online success with a suite of services including website design and creation, SEO, PPC, Google Ads, and email marketing.</p>
+          <h1 className="title">Get Your Business Online Fast – Websites & Ads That Work</h1>
+          <p className="py-4">Affordable web solutions and targeted ads for Nigerian businesses – no tech skills needed."</p>
           <a href="https://d2zhcj7kad1.typeform.com/to/YHMKeYYM" className="btn-positivus" target="_blank" rel="noopener noreferrer">
-            Book a consultation
+          Build Your Website Now! 
           </a>
         </div>
         <div className="col-md-6 col-12 mt-md-0 mt-4">

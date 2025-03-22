@@ -9,14 +9,14 @@ const CaseStudies = () => {
   return (
     <div className="section-padding" id="use-cases">
 
-      <Headings title="Case Studies" text="Explore Real-Life Examples of Our Proven Web Agency Success through Our Case Studies" />
+      <Headings title="Look!" text="Over 70% of Nigerian businesses are offline – Be the first online in your market!" />
 
         <div className="case-studies">
 
           {data.CaseStudies.map(({ text, link }, index) => (
             <div key="index" className="case-studies-item">
               <p>{text}</p>
-              <a href={link} alt="Learn more">Learn more <FiArrowUpRight /></a>
+              <a href={link} alt="Learn more">Claim Your Free Trial <FiArrowUpRight /></a>
             </div>
           ))}
         </div>

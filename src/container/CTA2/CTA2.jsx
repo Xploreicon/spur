@@ -1,8 +1,8 @@
 import React from 'react';
-import './CTA.css';
+import './CTA2.css';
 import { images } from '../../constants';
 
-const CTA = () => {
+const CTA2 = () => {
   return (
     <div className="section-padding">
 <div className="row cta">
@@ -20,4 +20,4 @@ const CTA = () => {
   )
 }
 
-export default CTA
+export default CTA2

@@ -7,16 +7,16 @@ import './Team.css';
 const Team = () => {
   return (
     <div className="section-padding">
-      <Headings title="Team" text="Meet the skilled and experienced team behind our successful Web agency strategies" />
+      <Headings title="Trusted by Nigerian Businesses" text="" />
 
       <div className="row">
         {data.Team.map(({ name, position, info, foto, linkedin }, index) => (
           <div className="col-lg-4 col-md-6 col-12">
             <div className="card-team" key={index}>
               <div className="card-team-header"> <img src={foto} alt={name} />
-                <p> <span>{name}</span>
-                  {position}</p>
-                <a href={linkedin} alt={`Linkedin + ${name}`} ><BsLinkedin /></a>
+                {/* <p> <span>{name}</span>
+                  {position}</p> */}
+                {/* <a href={linkedin} alt={`Linkedin + ${name}`} ><BsLinkedin /></a>  */}
               </div>
               <p>{info}</p>
             </div>
@@ -25,7 +25,7 @@ const Team = () => {
 
       </div>
       <div className="d-flex mt-2 justify-content-md-end justify-content-center">
-      <button className="btn-positivus">See all team</button>
+      <button className="btn-positivus">Claim Your Free Trial</button>
       </div>
     </div>
   )

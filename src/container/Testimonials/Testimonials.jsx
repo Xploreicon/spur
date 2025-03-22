@@ -8,7 +8,7 @@ import './Testimonials.css';
 const Testimonials = () => {
   return (
     <div className="section-padding" id="testimonials">
-         <Headings title="Testimonials" text="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Web Services" />
+         <Headings title="Testimonials" text="Judge us by our losses, because we have so few. " />
 
 
 <div className="carousel-bg">
